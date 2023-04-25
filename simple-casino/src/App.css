@@ -1,0 +1,13 @@
+body {
+  background-color: #e0e0e0;
+}
+
+.neumorphic-card {
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 7px 7px 14px #d1d1d1, -7px -7px 14px #ffffff;
+}
+
+.neumorphic-card:hover {
+  box-shadow: inset 4px 4px 8px #d1d1d1, inset -4px -4px 8px #ffffff;
+}
