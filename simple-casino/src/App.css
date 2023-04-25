@@ -11,3 +11,7 @@ body {
 .neumorphic-card:hover {
   box-shadow: inset 4px 4px 8px #d1d1d1, inset -4px -4px 8px #ffffff;
 }
+
+button {
+  margin: 5px;
+}

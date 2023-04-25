@@ -106,25 +106,25 @@ export function App() {
                             </Card>
                         )}
 
-                        {/*<Card className="neumorphic-card mt-4">*/}
-                        {/*    <Card.Body>*/}
-                        {/*        <Form>*/}
-                        {/*            <Form.Group controlId="depositAmount">*/}
-                        {/*                <Form.Label>Deposit Amount (ETH)</Form.Label>*/}
-                        {/*                <Form.Control*/}
-                        {/*                    type="number"*/}
-                        {/*                    min="0"*/}
-                        {/*                    step="0.01"*/}
-                        {/*                    value={depositAmount}*/}
-                        {/*                    onChange={(e) => setDepositAmount(e.target.value)}*/}
-                        {/*                />*/}
-                        {/*            </Form.Group>*/}
-                        {/*            <Button variant="primary" onClick={deposit}>*/}
-                        {/*                Deposit*/}
-                        {/*            </Button>*/}
-                        {/*        </Form>*/}
-                        {/*    </Card.Body>*/}
-                        {/*</Card>*/}
+                        <Card className="neumorphic-card mt-4">
+                            <Card.Body>
+                                <Form>
+                                    <Form.Group controlId="depositAmount">
+                                        <Form.Label>Donate to Casino🥺 (ETH)</Form.Label>
+                                        <Form.Control
+                                            type="number"
+                                            min="0"
+                                            step="0.01"
+                                            value={depositAmount}
+                                            onChange={(e) => setDepositAmount(e.target.value)}
+                                        />
+                                    </Form.Group>
+                                    <Button variant="primary" onClick={deposit}>
+                                        Deposit
+                                    </Button>
+                                </Form>
+                            </Card.Body>
+                        </Card>
 
                         <Card className="neumorphic-card mt-4">
                             <Card.Body>
